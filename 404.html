@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Page Not Found!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf3f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff0f6;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+            width: 90%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: #d6336c;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ff6f91;
+        }
+
+        a:hover {
+            color: #c9184a;
+        }
+
+        button {
+            padding: 10px 24px;
+            font-size: 1rem;
+            color: white;
+            background-color: #ff9fbc;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #f77b9d;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: white;
+            color: #555;
+            text-align: center;
+            padding: 12px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9rem;
+        }
+
+        #home {
+            color: #ff6f91;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        #home:hover {
+            color: #c9184a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>404 ERROR</h1>
+        <p>Page-ika not found<br>If you think this is a bug, mail us at <a href="mailto:pythonkrishna290@gmail.com">pythonkrishna290@gmail.com</a></p>
+        <div style="margin-top: 25px;">
+            <button onclick="window.location.reload();">Reload</button>
+        </div>
+    </div>
+
+    <footer>
+        <a id="home" href="index.html">&#8592; Back to Home</a>
+        <p>&copy; 2025 Rishika's Profile</p>
+    </footer>
+
+</body>
+
+</html>
